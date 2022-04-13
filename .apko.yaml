@@ -1,6 +1,3 @@
-entrypoint:
-  command: /bin/bash -l
-
 accounts:
   groups:
     - groupname: nonroot
@@ -28,4 +25,8 @@ contents:
     - curl
     - grpc-cli
     - minio-client
+    - cosign
+
+entrypoint:
+  command: /bin/bash -l
 
