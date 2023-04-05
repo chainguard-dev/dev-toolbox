@@ -14,10 +14,12 @@ contents:
     - jq
     - step-cli
     - curl
-    - grpc-cli
     - minio-client
     - cosign
 
 entrypoint:
   command: /bin/bash -l
 
+archs:
+  - x86_64
+  - aarch64
