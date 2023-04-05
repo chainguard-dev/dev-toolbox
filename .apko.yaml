@@ -20,3 +20,6 @@ contents:
 entrypoint:
   command: /bin/bash -l
 
+archs:
+  - x86_64
+  - aarch64
