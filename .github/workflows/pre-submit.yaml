@@ -22,6 +22,7 @@ jobs:
 
     - uses: chainguard-images/actions/apko-build@main
       with:
+        config: apko.yaml
         tag: dev-toolbox:${{ steps.snapshot-date.outputs.date }}
 
     - uses: actions/upload-artifact@v3
