@@ -14,7 +14,6 @@ contents:
     - jq
     - step-cli
     - curl
-    - grpc-cli
     - minio-client
     - cosign
 
