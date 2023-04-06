@@ -5,16 +5,16 @@ contents:
     - https://packages.wolfi.dev/os
   packages:
     # "core"
-    - wolfi-base
     - ca-certificates-bundle
+    - wolfi-base
 
     # dev tools
     - bash
-    - jq
-    - step
-    - curl
-    - mc
     - cosign
+    - curl
+    - jq
+    - mc
+    - step
 
     # Not yet supported in Wolfi :(
     # - mysql-client
