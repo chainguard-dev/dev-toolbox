@@ -1,0 +1,27 @@
+contents:
+  keyring:
+    - https://packages.wolfi.dev/os/wolfi-signing.rsa.pub
+  repositories:
+    - https://packages.wolfi.dev/os
+  packages:
+    # "core"
+    - ca-certificates-bundle
+    - wolfi-base
+
+    # dev tools
+    - bash
+    - cosign
+    - curl
+    - jq
+    - mc
+    - step
+
+    # Not yet supported in Wolfi :(
+    # - mysql-client
+
+entrypoint:
+  command: /bin/bash -l
+
+archs:
+  - x86_64
+  - aarch64

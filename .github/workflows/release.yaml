@@ -20,7 +20,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - uses: distroless/actions/apko-snapshot@main
+    - uses: chainguard-images/actions/apko-snapshot@main
       with:
-        config: .apko.yaml
+        config: apko.yaml
         base-tag: ghcr.io/${{ github.repository }}
